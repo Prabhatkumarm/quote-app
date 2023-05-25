@@ -5,8 +5,9 @@
 .nav{
     background-color: rgb(141, 218, 141);
     margin: 0;
+    padding: 10px 30px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nav ul{
@@ -18,7 +19,14 @@
 
 }
 
-nav a{
+.nav ul li{
+    background-color: rgb(26, 26, 58);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav a{
     text-decoration: none;
     COLOR: white;
+
 }
